@@ -4,15 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorOnSecondary"
+    android:orientation="vertical"
     tools:context="com.example.siraProject.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OPA"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/BotaoCarteiraId"
+        android:layout_width="@dimen/BotaoLargura"
+        android:layout_height="@dimen/BotaoAltura"
+        android:layout_margin="5dp"
+        android:background="@color/colorCinzaClaro"
+        android:paddingTop="20dp"
+        android:text="@string/botao_carteira"
+        android:textColor="@color/colorOnPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotaoAdicionarReceitaId" />
+
+    <Button
+        android:id="@+id/BotaoAdicionarDespesaId"
+        android:layout_width="@dimen/BotaoLargura"
+        android:layout_height="@dimen/BotaoAltura"
+        android:layout_margin="5dp"
+        android:background="@color/colorCinzaClaro"
+        android:paddingTop="20dp"
+        android:text="@string/botao_despesa"
+        android:textColor="@color/colorOnPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogoId" />
+
+    <Button
+        android:id="@+id/BotaoAdicionarReceitaId"
+        android:layout_width="@dimen/BotaoLargura"
+        android:layout_height="@dimen/BotaoAltura"
+        android:layout_margin="5dp"
+        android:background="@color/colorCinzaClaro"
+        android:paddingTop="20dp"
+        android:text="@string/botao_receita"
+        android:textColor="@color/colorOnPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogoId" />
+
+    <Button
+        android:id="@+id/BotaoListaDeMovimentosId"
+        android:layout_width="@dimen/BotaoLargura"
+        android:layout_height="@dimen/BotaoAltura"
+        android:layout_margin="5dp"
+        android:background="@color/colorCinzaClaro"
+        android:paddingTop="20dp"
+        android:text="@string/botao_movimentos"
+        android:textColor="@color/colorOnPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotaoAdicionarDespesaId" />
+
+    <ImageView
+        android:id="@+id/LogoId"
+        android:layout_width="192dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/descricao_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/porco1234" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Sira</string>
+    <string name="botao_carteira">Carteira</string>
+    <string name="botao_despesa">Adicionar despesa</string>
+    <string name="botao_receita">Adicionar receita</string>
+    <string name="botao_movimentos">Lista de Movimentos</string>
+    <!-->
+
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <!-->
+    <string name="descricao_logo">logotipo Porquinho</string>
 </resources>
