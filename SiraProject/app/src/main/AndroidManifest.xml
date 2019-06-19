@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.example.siraProject.ListaMovimentosActivity"></activity>
         <activity android:name="com.example.siraProject.CarteiraActivity" />
-        <activity android:name="com.example.siraProject.AdcionarDespesaActivity" />
+        <activity android:name="com.example.siraProject.AdicionarDespesaActivity" />
         <activity android:name="com.example.siraProject.AdicionarReceitaActivity" />
         <activity android:name="com.example.siraProject.MainActivity" />
         <activity android:name="com.example.siraProject.SplashActivity">
