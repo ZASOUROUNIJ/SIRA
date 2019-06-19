@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.siraProject.ListaMovimentosActivity"></activity>
+        <activity android:name="com.example.siraProject.CriarPastasActivity"></activity>
+        <activity android:name="com.example.siraProject.ListaMovimentosActivity" />
         <activity android:name="com.example.siraProject.CarteiraActivity" />
         <activity android:name="com.example.siraProject.AdicionarDespesaActivity" />
         <activity android:name="com.example.siraProject.AdicionarReceitaActivity" />

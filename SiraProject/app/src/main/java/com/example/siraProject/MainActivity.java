@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button add_receita;
     private Button add_despesa;
     private Button listaMovimentos;
+    private DBHelper db ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         add_receita = findViewById(R.id.BotaoAdicionarReceitaId);
         add_despesa = findViewById(R.id.BotaoAdicionarDespesaId);
         listaMovimentos = findViewById(R.id.BotaoListaDeMovimentosId);
+        db = new DBHelper(this);
 
         carteira.setOnClickListener(new View.OnClickListener() {
             @Override
